@@ -11,7 +11,7 @@ module.exports = {
 
          const mainPage = new MessageEmbed()
              .setColor(client.embedColor)
-            .setDescription(`press [this link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot) to invite Music Bot✨ to your server!`)
+            .setDescription(`click [this link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`)
            await interaction.followUp({embeds: [mainPage]})
     }
 		}
